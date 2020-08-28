@@ -6,9 +6,7 @@
 
 <hr style="background-color:black;">
 
-<p>You can simply add your own API Key from open weather map website and include it on thi line:
+<p>You can simply add your own API Key from open weather map website and include it on thi line:</p>
+        
+    xmlhttp.open("GET",`https://api.openweathermap.org/data/2.5/weather?q=${search1.value}&appid={       YOUR API KEY     }&units=metric`,true);
 
-        xmlhttp.open("GET",
-                 `https://api.openweathermap.org/data/2.5/weather?q=${search1.value}&appid={       YOUR API KEY     }&units=metric`,
-        true);
-</p>
